@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #181818;
+}
+
+li, a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6441a5;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #212121;
+}
+
+.logo{
+    cursor: pointer;
+    width: 100px;
+    background-color: #212121;
+}
+.logo:hover{
+    transform: scale(1.25);
+}
+
+.menu{
+    list-style: none;
+    background-color: #212121;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #212121;
+}
+
+.menu li a{
+    transition: all 0.3s ease 0s;
+    background-color: #212121;
+}
+
+.menu li a:hover, .menu li a.activate{
+    color: white;
+}
+
+body{
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+}
+h1{
+    color: #6441a5;
+    text-shadow: 1px 1px 2px black, 0 0 15px white, 0 0 1px white;
+}
+#thor{
+    width: 500px;
+    float: left;
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+#thor:hover{
+    transform: scale(0.9);
+}
+
+/*portofolio*/
+#gambar{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+#gambar tr {
+    display: inline-block;
+}
+#gambar tr td {
+    margin-right: 20px;
+    padding: 18px;
+    
+}
+#gambar tr td:hover {
+    background-color: #6441a5;
+    box-shadow: 0 1px 8px white;
+    transform: scale(1.25);
+}
+
+/*Daftar*/
+
+#tabeldaftar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;  
+}
+
+#tabeldaftar tr td{
+    padding: 20px;
+}
+
+#tabeldaftar tr td input{
+    margin-left: 30px;
+}
+
+input[type="text"], textarea {
+    background-color : #212121; 
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+#button{
+    background-color: #212121;
+    border-radius: 15px;
+    padding: 5px 18px;
+    border: 1px solid white;
+}
+#button:hover{
+    background-color: white;
+    color: #000000;
+}
+
+
+/*bidata*/
+#tabelbiodata{
+    width: 745;
+    border: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tablebiodata tr td:hover{
+    background-color: #6441a5;
+    box-shadow: 0 1px 8px white;
+
+}
+#line1 td{
+    text-align : center;
+    background-color: #6441a5;
+}
+#tabelbiodata tr td{
+    padding: 5px;
+}
